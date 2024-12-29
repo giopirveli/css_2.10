@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    margin: 64px auto;
+    background-color: #E2F7FF;
+    padding: 96px;
+    max-width: 1600px;
+}
+.mainDiv >*{
+margin-bottom: 64px;
+}
+header >*{
+    margin-bottom: 20px;
+}
+.ordinaryBox span{
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+}
+.ordinaryBox >h1{
+    color: #181D27;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px; /* 126.667% */
+}
+.ordinaryBox p{
+    color: #535862;
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+}
+.ordinarybutton{
+padding: 8px 12px;
+font-size: 14px;
+line-height: 20px;
+border-radius: 999px;
+}
+.firstButtonStyle{
+    background-color: #F9F5FF;
+    border: 1px solid #E9D7FE;
+    color: #6941C6;
+}
+.secondButtonStyle{
+    border: 1px solid #C7D7FE;
+    background-color: #EEF4FF;
+    color: #3538CD;
+}
+.thirdButtonStyle{
+    border: 1px solid #FCCEEE;
+    background-color: #FDF2FA;
+    color: #C11574;
+}
+.fourthButtonStyle{
+    color: #026AA2;
+    border: 1px solid #B9E6FE;
+background-color: #F0F9FF;
+}
+/*     header   end         */
+/*     main   start         */
+.presentationBox{
+    width: min-content;
+}
+.presentationBox >*{
+    margin-bottom: 16px;
+}
+.presentationBoxTitle >*{
+display: inline-block;
+vertical-align: top;
+
+}
+.presentationBoxTitle h1{
+    margin-right: 1vw;
+    font-size: 25px;
+}
+.fivethButtonStyle{
+border: 1px solid #ABEFC6;
+color: #067647;
+ background-color: #ECFDF3;
+}
+.sixthButtonStyle{
+    color: #363F72;
+    border: 1px solid #D5D9EB;
+background-color: #F8F9FC;
+}
+.seventhButtonStyle{
+    color: #B93815;
+border: 1px solid #F9DBAF;
+background-color: #FEF6EE;
+}
+.presentationConteiner >*{
+display: inline-block;
+margin-right: 50px;
+margin-bottom: 50px;
+vertical-align: middle;
+}
+.presentationBoxTitle h1{
+    max-width:14vw ;
+}
